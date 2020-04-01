@@ -19,7 +19,7 @@ GEM
     parser (2.7.0.5)
       ast (~> 2.4.0)
     rainbow (3.0.0)
-    rake (10.5.0)
+    rake (13.0.1)
     rexml (3.2.4)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -55,7 +55,7 @@ DEPENDENCIES
   faraday_middleware (~> 1.0)
   json (~> 2.3)
   megafon_sms!
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (= 0.80.1)
   vcr (= 5.1)
