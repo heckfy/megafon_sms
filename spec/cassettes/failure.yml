@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://a2p-api.megalabs.ru/sms/v1/sms
+    body:
+      encoding: UTF-8
+      string: '{"from":"Site.ru","to":9772695370,"message":"Сообщение","callback_url":null,"msg_id":null}'
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Content-Type:
+      - application/json
+      Authorization:
+      - 'Basic TVNLX25wcnNubDo0UnU1MFFDWA==
+
+'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx
+      date:
+      - Wed, 01 Apr 2020 18:55:03 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - max-age=0, private, must-revalidate
+      x-request-id:
+      - 2c41a91afe1f95ad9b2cfecbee325a4b
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHQiOnsibXNnX2lkIjoiZW9kNzRrYnBmMWYydTkwNSIsInN0YXR1cyI6eyJjb2RlIjoyMDEwMSwiZGVzY3JpcHRpb24iOiLQntCx0Y/Qt9Cw0YLQtdC70YzQvdC+0LUg0L/QvtC70LUg0L7RgtGB0YPRgtGB0YLQstGD0LXRgiDQuNC70Lgg0L/QvtC70LUg0YHQvtC00LXRgNC20LjRgiDQtNCw0L3QvdGL0LUg0LIg0L3QtdCy0LXRgNC90L7QvCDRhNC+0YDQvNCw0YLQtS4iLCJwYXlsb2FkIjpbeyJjb2RlIjoicGFyYW1faXNfbm90X3ZhbGlkIiwiZGVzY3JpcHRpb24iOiJ0byJ9XX19fQ==
+    http_version: null
+  recorded_at: Wed, 01 Apr 2020 18:55:03 GMT
+recorded_with: VCR 5.1.0
