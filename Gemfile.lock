@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    megafon_sms (1.0.0)
+    megafon_sms (1.0.1)
 
 GEM
   remote: https://rubygems.org/
